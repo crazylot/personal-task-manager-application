@@ -38,6 +38,7 @@
         </div>
       {/if}
     </form>
+    <a href="https://github.com/crazylot/personal-task-manager-application" class="github-link">GitHub Link</a>
   </div>
   
   <style>
@@ -117,5 +118,14 @@
       color: #d9534f;
       text-align: center;
     }
+    .github-link {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+  }
   </style>
   
