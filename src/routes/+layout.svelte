@@ -19,6 +19,7 @@
     <a href="/">home</a>
     <a href="/about">about</a>
     <a href="/tasks">tasks manager</a>
+    <a href="/tasks/all">Show All Tasks</a>
     <div class="options">
       <UserProfileComponent />
       <button class="dropbtn" on:click={onLogout}>Logout</button>

@@ -1,12 +1,15 @@
 <script>
     import TaskList from '/src/components/TaskList.svelte';
-    import {tasks} from '/src/taskStore.js';
+    import {tasksList} from '/src/taskStore.js';
     import { loginState } from '../../../userStore';
-    console.log($tasks)
-    console.log($loginState)
+    import { onMount } from "svelte";
+    console.log($tasksList)
+    onMount(() => {
+      console.log($loginState)
+    });
   </script>
   <div class="todoapp stack-large">
   
-    <TaskList tasks = {$tasks} />
+    <TaskList tasks = {$tasksList} />
   
   </div>
